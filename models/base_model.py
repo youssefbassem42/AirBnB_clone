@@ -6,7 +6,6 @@ from models import store
 from models.engine.file_storage import FileStorage
 
 
-
 class BaseModel:
     """ Base Class for All Classes """
 
