@@ -1,0 +1,27 @@
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.nav li{
+    margin-top: 25px;
+}
+.nav li a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #222;
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: #FF5A5F;
+}
